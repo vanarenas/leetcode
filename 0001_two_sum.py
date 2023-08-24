@@ -11,7 +11,7 @@ class Solution:
                 if self.nums[i] + self.nums[j] == self.target:
                     index.extend([i,j])
 
-        return
+        return index
 
 
 # ----- TEST CASE ----- #
